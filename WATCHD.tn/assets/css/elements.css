@@ -42,11 +42,27 @@
 .btn-completed {
     border-radius: 0;
     background-color: grey;
+    color: white !important;
 }
 .btn-ongoing {
     border-radius: 0;
     background-color: white;
     color: grey !important;
+}
+.btn-cover {
+    border-radius: 65px;
+    padding: 13px;
+    width: 270px;
+    opacity: 0.9;
+}
+.btn-watch {
+    background-color: #EE2D2F;
+    border: none;
+}
+.btn-add {
+    margin-top: 10%;
+    background-color: #2E3039;
+    border: none;
 }
 /* ******************* review stars  ****************** */
 .review-star {
@@ -137,5 +153,7 @@
     font-size: 13px;
 }
 .poster-links {
+    position: absolute;
     margin-top: 2px;
+    z-index: 1;
 }

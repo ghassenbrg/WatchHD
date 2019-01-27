@@ -10,8 +10,7 @@ $(document).ready(function(){
         }
       }
     });
-    multiplyNode(document.querySelector('.example1'), 10, true);
-    multiplyNode(document.querySelector('.example2'), 10, true);
+  
  });
  
  function multiplyNode(node, count, deep) {

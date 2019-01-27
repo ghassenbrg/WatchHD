@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>WATCHD.tn | Home Page</title>
+        <title>WATCHD.tn | The Vampire Diaries</title>
         <meta name="description" content="The website provide a free 'alternative' to subscription-based video streaming services such as Netflix.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="favico.ico">
@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/elements.css">
-        <link rel="stylesheet" href="assets/css/slider.css">
+        <link rel="stylesheet" href="assets/css/cover.css">
         <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -26,7 +26,7 @@
                 <li class="nav-logo">
                     <a href="index.html"><img src="assets/img/logo.png" alt="" class="logo"></a> <!-- logo -->
                 </li>
-                <li class="nav-item active-item">
+                <li class="nav-item">
                     <a href="index.html"><span class="icon-home"></span>  Home</a>                
                 </li>
                 <li class="nav-item">
@@ -49,89 +49,42 @@
                 </li>
             </ul>
         </nav>
-        <!-- ********************* slider *********************-->
-         <div id="slider" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover">
-            <ul class="indicators"><!-- indicators buttons-->
-                <li data-target="#slider" data-slide-to="0" class="btn-slider active" id="btn0"></li>
-                <li data-target="#slider" data-slide-to="1" class="btn-slider" id="btn1"></li>
-                <li data-target="#slider" data-slide-to="2" class="btn-slider" id="btn2"></li>
-                <li data-target="#slider" data-slide-to="3" class="btn-slider" id="btn3"></li>
-                <li data-target="#slider" data-slide-to="4" class="btn-slider" id="btn4"></li>
-             </ul>
-            <div class="carousel-inner"><!-- carousel items -->
-                <div class="carousel-item active"> <!-- single item 0 -->
-                    <img src="temp/slide_img/slide1.jpg" class=" slider-img" alt="...">
-                    <div class="item-content">
-                        <div class="item-info">
-                            <a href="#"><button class="btn btn-cat btn-series"><i class="icon-television"></i> Series</button></a>
-                            <a href="#"><h1>Game of Thrones S08</h1></a>
-                            <p class="info-text">
-                                <i class="icon-video genre-icon"></i> Fantasy . Adventure . Action
-                                <i class="espace"></i><i class="icon-star review-star"></i> imdb (9.5/10)
-                            </p>
-                        </div>  
+        
+        <div class="cover">
+            <div class="cover-item"> <!-- single item 0 -->
+                <img src="temp/cover1.png" class=" slider-img" alt="...">
+                <div class=" item-content">
+                    <div class=" item-info item-cover-info">
+                        <a href="#"><button class="btn btn-cat btn-series"><i class="icon-television"></i> Series</button></a>
+                        <h1 class="cover-title">The Vampire Diaries</h1>
+                        <p class="cover-info">
+                            A young teen struggles to make a decision between two vampire brothers
+                            and their supernatural lives. Soon after she discovers the truth her whole
+                            world turns upside down.
+                        </p>
+                        <p class="cover-info cover-info-details">
+                            <span>Runtime: </span>43 min
+                            <br><span> Genre: </span>Drama, Fantasy, Horror
+                            <br><span>Actors: </span>Paul Wesley, Ian Somerhalder, Kat Graham, Candice King
+                            <br><span>Rating: </span> <i class="icon-star review-star"></i> imdb (9.5/10)
+                            <br><span>Seasons: </span>8
+                            <br><span>Released: </span>2009–2017
+                            <br><span>Language: </span>English
+                        </p>
                     </div>
-                  </div>
-                  <div class="carousel-item"> <!-- single item 1 -->
-                    <img src="temp/slide_img/slide2.jpg" class="d-block w-100" alt="...">
-                    <div class="item-content">
-                        <div class="item-info">
-                            <a href="#"><button class="btn btn-cat btn-series"><i class="icon-television"></i> Series</button></a>
-                            <a href="#"><h1>Vikings S05</h1></a>
-                            <p class="info-text">
-                                <i class="icon-video genre-icon"></i> Fantasy . Adventure . Action
-                                <i class="espace"></i><i class="icon-star review-star"></i> imdb (8.3/10)
-                            </p>
-                        </div>                             
+                    <div class=" item-buttons">
+                        <button class="btn btn-danger btn-cover btn-watch"><i class="icon-desktop"></i> Watch trailer</button>
+                        <br><button class="btn btn-dark btn-cover btn-add"><i class="icon-plus"></i> Add to a list</button>
                     </div>
-                  </div>
-                  <div class="carousel-item"> <!-- single item 2 -->
-                    <img src="temp/slide_img/slide3.jpg" class="d-block w-100" alt="...">
-                    <div class="item-content">
-                        <div class="item-info">
-                            <a href="#"><button class="btn btn-cat btn-anime"><i class="icon-anime"></i> Anime</button></a>
-                            <a href="#"><h1>Attack on titan S04</h1></a>
-                            <p class="info-text">
-                                <i class="icon-video genre-icon"></i> Fantasy . Adventure . Action
-                                <i class="espace"></i><i class="icon-star review-star"></i> imdb (9.5/10)
-                            </p>
-                        </div>  
-                    </div>
-                  </div>
-                  <div class="carousel-item"> <!-- single item 3 -->
-                    <img src="temp/slide_img/slide4.jpg" class="d-block w-100" alt="...">
-                    <div class="item-content">
-                        <div class="item-info">
-                            <a href="#"><button class="btn btn-cat btn-movies"><i class="icon-movie"></i> Movies</button></a>
-                            <a href="#"><h1>Venom</h1></a>
-                            <p class="info-text">
-                                <i class="icon-video genre-icon"></i> Fantasy . Adventure . Action
-                                <i class="espace"></i><i class="icon-star review-star"></i> imdb (9.5/10)
-                            </p>
-                        </div>  
-                    </div>
-                  </div>
-                  <div class="carousel-item"> <!-- single item 4 -->
-                    <img src="temp/slide_img/slide5.jpg" class="d-block w-100" alt="...">
-                    <div class="item-content">
-                        <div class="item-info">
-                            <a href="#"><button class="btn btn-cat btn-anime"><i class="icon-anime"></i> Anime</button></a>
-                            <a href="#"><h1>Black Clover S01</h1></a>
-                            <p class="info-text">
-                                <i class="icon-video genre-icon"></i> Fantasy . Adventure . Action
-                                <i class="espace"></i><i class="icon-star review-star"></i> imdb (9.5/10)
-                            </p>
-                        </div>  
-                    </div>
-                  </div>
-             </div>
-         </div>
-        </header>
+                </div>
+              </div>
+        </div>
+      </header>
         <div class="container">  
         <!-- ********************* new episodes *********************--> 
             <div class="container-item new-episodes">
                 <div class="container-item-header">
-                    <h3><span class="icon-hot"></span> New Episodes</h3>
+                    <h3><span class="icon-hot"></span> Latest episodes</h3>
                     <span class="container-item-header-right">
                         <button class="btn btn-danger btn-show-all"><i class="icon-lines"></i> Show all</button>
                         <i class="icon-previous_f"></i><i class="icon-next_f"></i>
@@ -142,46 +95,41 @@
                         <a href="#"><div class="episode-content">
                             <h2><i class="icon-play"></i></h2>
                             <div class="episode-info">
-                                <h5>Vikings S05E13</h5>
+                                <h5>The Vampire Diaries S08E16</h5>
                                 <p>2 hours ago</p>
                             </div>
                         </div></a>
-                        <img src="temp/slide_img/slide2.jpg" class="episode-img"/>
+                        <img src="temp/vpm/vpm1.jpg" class="episode-img"/>
+                        
                     </div>
 
                     <div class="col episode"> <!-- episode item 2-->
                         <a href="#"><div class="episode-content">
                             <h2><i class="icon-play"></i></h2>
                             <div class="episode-info">
-                                <h5>Attack on Titan S03E12</h5>
-                                <p>2 hours ago</p>
+                                <h5>The Vampire Diaries S08E15</h5>
+                                <p>7 days ago</p>
                             </div>
                         </div></a>
-                        <img src="temp/slide_img/slide3.jpg" class="episode-img"/>
+                        <img src="temp/vpm/vpm2.jpg" class="episode-img"/>
                     </div>
 
                     <div class="col episode"> <!-- episode item 3-->
                         <a href="#"><div class="episode-content">
                             <h2><i class="icon-play"></i></h2>
                             <div class="episode-info">
-                                <h5>Black Clover S01E67</h5>
-                                <p>2 hours ago</p>
+                                <h5>The Vampire Diaries S08E14</h5>
+                                <p>14 days ago</p>
                             </div>
                         </div></a>
-                        <img src="temp/slide_img/slide5.jpg" class="episode-img"/>
+                        <img src="temp/vpm/vpm3.jpg" class="episode-img"/>
                     </div>
                 </div>
             </div>            
-            <!-- ********************* new added *********************--> 
+            <!-- ********************* seasons *********************--> 
             <div class="container-item new-added">
                 <div class="container-item-header">
-                    <h3><span class="icon-calendar"></span> New Added</h3>
-                    <span class="container-item-header-right">
-                        <button class="btn btn-danger btn-top btn-show-all"><i class="icon-lines"></i> All</button>
-                        <button class="btn btn-primary btn-top btn-series"><i class="icon-television"></i> Series</button>
-                        <button class="btn btn-success btn-top btn-movies"><i class="icon-movie"></i> Movies</button>
-                        <button class="btn btn-top btn-anime"><i class="icon-anime"></i> Anime</button>
-                    </span>
+                    <h3><span class="icon-video"></span> Seasons</h3>
                 </div>
                 <div class="row">              
                     <!-- ********************************** poster item 1 ********************************** -->       
@@ -191,7 +139,7 @@
                             </div>
                             <a href="#"><div class="poster-content">
                             <div class="poster-info">
-                                <h5>Game of Thrones S08</h5>
+                                <h5>The Vampire Diaries S07</h5>
                                 <p>
                                     <i class="icon-star review-star"></i>
                                     <i class="icon-star review-star"></i>
@@ -201,22 +149,16 @@
                                 </p>
                             </div>
                         </div> </a>
-                            <img src="temp/posters/1.jpg" class="poster-img"/>
+                            <img src="temp/posters/6.jpg" class="poster-img"/>
                     </div> 
-                <!-- repeat items-->
-                <script>multiplyNode(document.querySelector('.example1'), 10, true);</script>
                 </div>
+                <!-- repeat items-->
+                <script>multiplyNode(document.querySelector('.example1'), 5, true);</script>
             </div>                
-            <!-- ********************* most watched *********************--> 
+            <!-- ********************* related *********************--> 
             <div class="container-item new-added">
                 <div class="container-item-header">
-                    <h3><span class="icon-fire"></span> Most watched</h3>
-                    <span class="container-item-header-right">
-                        <button class="btn btn-danger btn-top btn-show-all"><i class="icon-lines"></i> All</button>
-                        <button class="btn btn-primary btn-top btn-series"><i class="icon-television"></i> Series</button>
-                        <button class="btn btn-success btn-top btn-movies"><i class="icon-movie"></i> Movies</button>
-                        <button class="btn btn-top btn-anime"><i class="icon-anime"></i> Anime</button>
-                    </span>
+                    <h3><span class="icon-event"></span> Related</h3>
                 </div>
                 <div class="row">              
                     <!-- ********************************** poster item 1 ********************************** -->       
@@ -224,9 +166,9 @@
                             <div class="poster-links">
                                 <a href="#" class="btn-poster btn-series"><i class="icon-television"></i> Series</a><a class="btn-poster btn-completed">Completed</a>
                             </div>
-                            <a href="SingleSeriePage.html"><div class="poster-content">
+                            <a href="#"><div class="poster-content">
                             <div class="poster-info">
-                                <h5>The Last Kingdom</h5>
+                                <h5>Legacies</h5>
                                 <p>
                                     <i class="icon-star review-star"></i>
                                     <i class="icon-star review-star"></i>
@@ -236,10 +178,10 @@
                                 </p>
                             </div>
                         </div> </a>
-                            <img src="temp/posters/9.png" class="poster-img"/>
+                            <img src="temp/posters/23.jpg" class="poster-img"/>
                     </div> 
                 <!-- repeat items-->
-                <script>multiplyNode(document.querySelector('.example2'), 10, true);</script>
+                <script>multiplyNode(document.querySelector('.example2'), 5, true);</script>
                 </div>
             </div>  
             

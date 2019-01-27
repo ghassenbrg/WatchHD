@@ -77,6 +77,10 @@ nav a:hover {
 .nav-logo {
     margin-left: 2%;
 }
+.nav-logo a {
+    margin: 0;
+    padding: 0;
+}
 .nav-search {
     margin-left: 2.5%;
 }
