@@ -79,10 +79,21 @@
     border-radius: 5px;
     margin-bottom: 2%;
 }
-.episode-img {
+.episode-figure {
     width: 290px;
     height: 180px;
     border-radius: 5px;
+    overflow:hidden;
+}
+.episode-img {
+    width: 290px;
+    height: 180px;
+}
+.episode:hover .episode-img {
+    width: 315px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;    
 }
 .episode-content {
     position: absolute;
@@ -118,10 +129,22 @@
     border-radius: 5px;
     margin-bottom: 2%;
 }
-.poster-img {
+.poster-figure {
     width: 200px;
     height: 277px;
     border-radius: 5px;
+    overflow:hidden;
+}
+.poster-img {
+    width: 200px;
+    height: 277px;
+    object-fit: cover;
+}
+.poster:hover .poster-img {
+	width: 225px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 .poster-content {
     position: absolute;
