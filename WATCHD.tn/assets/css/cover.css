@@ -1,3 +1,6 @@
+.cover {
+    position: relative;
+}
 .item-content {
     position: absolute;
     background-image: url(../../assets/img/black-gradient-effect.png);
