@@ -90,9 +90,10 @@
     height: 180px;
 }
 .episode:hover .episode-img {
+    width: 315px;
+	height: auto;
 	-webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out; 
-    transform: scale(1.2);
+    transition: .3s ease-in-out;    
 }
 .episode-content {
     position: absolute;
@@ -140,9 +141,10 @@
     object-fit: cover;
 }
 .poster:hover .poster-img {
+	width: 225px;
+	height: auto;
 	-webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out; 
-    transform: scale(1.2);
+    transition: .3s ease-in-out;
 }
 .poster-content {
     position: absolute;
