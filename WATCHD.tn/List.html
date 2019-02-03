@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WATCHD.tn | My List</title>
+        <meta name="description" content="The website provide a free 'alternative' to subscription-based video streaming services such as Netflix.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="favico.ico">
+        <link rel="stylesheet" href="assets/css/icons/style.css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/elements.css">
+        <link rel="stylesheet" href="assets/css/List.css">
+        <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+        <script src="assets/js/script.js"></script>
+    </head>
+    <!-- **************************************  body start ************************************** -->
+    <body>
+      <header>
+        <!-- ********************* navbar *********************-->
+        <nav>
+            <ul>
+                <li class="nav-logo">
+                    <a href="index.html"><img src="assets/img/logo.png" alt="" class="logo"></a> <!-- logo -->
+                </li>
+                <li class="nav-item">
+                    <a href="index.html"><span class="icon-home"></span>  Home</a>                
+                </li>
+                <li class="nav-item">
+                    <a href="#"><span class="icon-television"></span>  Series</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#"><span class="icon-movie"></span>  Movies</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#"><span class="icon-anime"></span>  Anime </a>
+                </li>  
+                <li class="nav-search">
+                    <input type="texte" name="search" id="search" size="30" placeholder="please enter title"/><button class="btn-search"><span class="icon-search"></span></button>
+                </li>
+                <li class="nav-item">
+                    <a href="#"><span class="icon-notifications-on alone-icon"></span></a>
+                </li>
+                <li class="nav-join-us">
+                    <a href="#"><span class="icon-item-list alone-icon"></span></a>
+                </li>
+                <li class="nav-join-us">
+                    <a href="List.html">
+                        <figure class="profil-pic">
+                            <img src="temp/profil_pic2.jpg" alt="">
+                        </figure>
+                        <i class="icon-down icon-menu"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <section>
+            <h1 class="profil-name">	
+                <figure class="profil-pic-list">
+                <img src="temp/profil_pic2.jpg" alt="">
+                </figure>
+                Elwaer Youcef
+            </h1>
+            <div class="list-buttons">
+                <div class="row">
+                        <div class="col"></div><div class="col"></div><div class="col"></div><div class="col"></div>
+                    <div class="col">
+                      <button type="button " class="btn btn-outline-light btn-list"><span class="icon-television" aria-hidden="true"></span> My favourite </button>
+                    </div>
+                    <div class="col">
+                      <button type="button " class="btn btn-light btn-list"><span class="icon-television" aria-hidden="true"></span> My favourite </button>
+                    </div> 
+                    <div class="col">
+                      <button type="button " class="btn btn-outline-light btn-list"><span class="icon-television" aria-hidden="true"></span> My favourite </button>
+                    </div>   
+                    <div class="col">
+                      <button type="button " class="btn btn-outline-light btn-list"><span class="icon-television" aria-hidden="true"></span> My favourite </button>
+                    </div>                                                         
+                </div>
+            </div>
+      </section>
+      </header>
+        <div class="container">                           
+            <!-- ********************* related *********************--> 
+            <div class="container-item new-added">
+                <div class="row">              
+                    <!-- ********************************** poster item 1 ********************************** -->       
+                    <div class="col poster example2">
+                            <div class="poster-links">
+                                <a href="#" class="btn-poster btn-movies"><i class="icon-movie"></i> Movies</a><a class="btn-poster btn-completed">Completed</a>
+                            </div>
+                            <a href="#"><div class="poster-content">
+                            <div class="poster-info">
+                                <h5>Venom</h5>
+                                <p>
+                                    <i class="icon-star review-star"></i>
+                                    <i class="icon-star review-star"></i>
+                                    <i class="icon-star review-star"></i>
+                                    <i class="icon-star review-star"></i>
+                                    <i class="icon-star review-star-off"></i>
+                                </p>
+                            </div>
+                        </div> </a>
+                        <figure class="poster-figure">
+                                <img src="temp/posters/20.jpg" class="poster-img"/>
+                        </figure>   
+                    </div> 
+                <!-- repeat items-->
+                <script>multiplyNode(document.querySelector('.example2'), 10, true);</script>
+                </div>
+            </div>  
+            
+            
+        </div> 
+        <!-- ********************* footer ********************* -->
+        <footer class="footer">
+            <img src="assets/img/logo.png" alt="" class="logo"> <!-- logo -->
+            <div class="social-media"> <!-- social media links -->
+                <a href="#" class="facebook"><img src="assets/img/social-media/facebook.svg" alt="" class="social-img"></a> <!-- facebook -->
+                <a href="#" class="instagram"><img src="assets/img/social-media/instagram.svg" alt="" class="social-img"></a> <!-- instagram -->
+                <a href="#" class="twitter"><img src="assets/img/social-media/twitter.svg" alt="" class="social-img"></a> <!-- twitter -->
+                <a href="#" class="youtube"><img src="assets/img/social-media/youtube.svg" alt="" class="social-img"></a> <!--youtube -->
+            </div>
+            <div class="bot-menu"> <!-- bottom menu -->
+                <a href="#" class="bot-menu-item">Privacy policy</a> | 
+                <a href="#" class="bot-menu-item">Terms of use</a> |
+                <a href="#" class="bot-menu-item">Contact-us</a>
+            </div>
+            <p class="copyright"> <!-- copyright text -->
+                All right reserved to WATCHD.tn © 2019  -  Developped By GhasSen&YousSef
+            </p>
+        </footer>
+    </body>
+</html>
