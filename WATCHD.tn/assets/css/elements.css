@@ -1,3 +1,7 @@
+/* **** icon **** */
+.alone-icon {
+    font-size: 30px;
+}
 /* ******************* buttons  ****************** */
 .btn-cat {
     padding: 0;
@@ -63,6 +67,43 @@
     margin-top: 10%;
     background-color: #2E3039;
     border: none;
+}
+.btn-episode-np {
+    display: inline-block;
+    vertical-align: middle;
+    width: 110px;
+    border-radius: 13px;
+}
+.btn-none {
+    color: #8B8B9B;
+    padding: 0;
+    font-size: 17px;
+}
+.btn-none i{
+    font-size: 23px;
+    vertical-align: middle;
+}
+.btn-none:hover {
+    color: white;
+}
+.btn-report {
+    color: #EE2D2F;
+}
+.btn-report:hover {
+    color: #A91A1C;
+}
+.radius {
+    border-radius: 5px 0 0 0;
+}
+.btn-outline-watchd {
+    border-radius: 10px;
+    border: black 3px solid;
+    width: 250px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+    color: black;
 }
 /* ******************* review stars  ****************** */
 .review-star {

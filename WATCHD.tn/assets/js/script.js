@@ -10,7 +10,6 @@ $(document).ready(function(){
         }
       }
     });
-  
  });
  
  function multiplyNode(node, count, deep) {
@@ -19,5 +18,3 @@ $(document).ready(function(){
         node.parentNode.insertBefore(copy, node);
     }
 }
-
-

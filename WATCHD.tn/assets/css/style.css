@@ -23,6 +23,9 @@ a:hover{
 .container {
     margin-bottom: 3%;
 }
+.div-inline{
+    display: inline-block;
+}
 /* *******************  nabvar style  ******************* */
 nav{
     background-color: #121421;
@@ -103,6 +106,28 @@ nav a:hover {
     background-color: white;
     cursor: pointer;
   }
+  .icon-menu {
+    display: inline-block;
+  }
+  .profil-pic {
+      margin: 0;
+      padding: 0;
+      border-radius: 50%;
+      overflow: hidden;
+      width: 37px;
+      height: 37px;
+      border: #C1C2D8 1px solid;
+      vertical-align: middle;
+      display: inline-block;
+  }
+  .profil-pic img {
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    overflow: hidden;
+    width: 40px;
+    min-height: 40px;
+}
 /* *******************  container item style  *******************  */
 .container-item {
     margin: 2.5%;
@@ -154,3 +179,20 @@ nav a:hover {
     font-size: 12px;
     margin-top: 2%;
 }
+/* ************** scroll bar style *************** */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #484B5F; 
+    border-radius: 10px;
+  }
